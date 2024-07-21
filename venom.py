@@ -16,7 +16,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7026375731:AAEzrZmn_LMxrFpQQ9rZqH6obzmDVTjVMm4'
+TOKEN = '7480665327:AAFZ_i5v1mqZXLm1w6DFzRSNJF4V9FoR7Xo'
 MONGO_URI = 'mongodb+srv://VENOMxCRAZY:CRAZYxVENOM@cluster0.ythilmw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
 FORWARD_CHANNEL_ID = -4255197753
 CHANNEL_ID = -4255197753
@@ -254,7 +254,7 @@ def handle_message(message):
     elif message.text == "Help❓":
         bot.reply_to(message, "*Help selected*", parse_mode='Markdown')
     elif message.text == "Contact admin✔️":
-        bot.reply_to(message, "*Contact admin @ZOMBIExCHEAT*", parse_mode='Markdown')
+        bot.reply_to(message, "*Contact admin @@ToXicTaRuN00*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
