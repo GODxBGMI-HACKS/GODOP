@@ -219,7 +219,7 @@ def send_welcome(message):
     btn2 = KeyboardButton("Instant++ Plan 💥")
     btn3 = KeyboardButton("Canary Download✔️")
     btn4 = KeyboardButton("My Account🏦")
-    btn6 = KeyboardButton("Contact admin✔️")
+    btn5 = KeyboardButton("Contact admin✔️")
 
     # Add buttons to the markup
     markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
