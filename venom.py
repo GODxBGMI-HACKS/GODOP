@@ -220,6 +220,7 @@ def send_welcome(message):
     btn3 = KeyboardButton("Canary Download✔️")
     btn4 = KeyboardButton("My Account🏦")
     btn5 = KeyboardButton("Contact admin✔️")
+    btn6 = KeyboardButton("Premium Bot✨")
 
     # Add buttons to the markup
     markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
@@ -251,6 +252,8 @@ def handle_message(message):
             response = "*No account information found. Please contact the administrator.*"
     elif message.text == "Contact admin✔️":
         bot.reply_to(message, "*Contact admin @GODxBGMI_KAKASHI*", parse_mode='Markdown')
+    elif message.text == "Premium Bot✨":
+        bot.reply_to(message, "*Premium Bot Username :- @GOD_BGMI_DDOS_BOT and @GODxPAPABOT*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
