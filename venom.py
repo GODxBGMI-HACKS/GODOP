@@ -219,7 +219,6 @@ def send_welcome(message):
     btn2 = KeyboardButton("Instant++ Plan 💥")
     btn3 = KeyboardButton("Canary Download✔️")
     btn4 = KeyboardButton("My Account🏦")
-    btn5 = KeyboardButton("Help❓")
     btn6 = KeyboardButton("Contact admin✔️")
 
     # Add buttons to the markup
@@ -249,12 +248,9 @@ def handle_message(message):
                         f"Valid Until: {valid_until}\n"
                         f"Current Time: {current_time}*")
         else:
-            response = "*No account information found. Please contact the administrator.*"
-        bot.reply_to(message, response, parse_mode='Markdown')
-    elif message.text == "Help❓":
-        bot.reply_to(message, "*Help selected*", parse_mode='Markdown')
+            response = "*No account information found. Please contact the administrator.* 
     elif message.text == "Contact admin✔️":
-        bot.reply_to(message, "*Contact admin @TROLLCONFIES*", parse_mode='Markdown')
+        bot.reply_to(message, "*Contact admin @GODxBGMI_KAKASHI*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
