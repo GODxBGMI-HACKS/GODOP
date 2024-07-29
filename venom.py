@@ -248,7 +248,7 @@ def handle_message(message):
                         f"Valid Until: {valid_until}\n"
                         f"Current Time: {current_time}*")
         else:
-            response = "*No account information found. Please contact the administrator.* 
+            response = "*No account information found. Please contact the administrator.*"
     elif message.text == "Contact admin✔️":
         bot.reply_to(message, "*Contact admin @GODxBGMI_KAKASHI*", parse_mode='Markdown')
     else:
